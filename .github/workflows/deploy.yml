@@ -27,6 +27,7 @@ jobs:
 
     - name: Validar Arquivos html
       run: htmlhint "index.html"
+      run: htmlhint "pagina.html"
  
 # Etapa de CD (Entrega contínua)
   deploy-producao:
